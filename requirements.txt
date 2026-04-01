@@ -1,0 +1,21 @@
+# SAS-TradingGraph 依赖包
+# 安装：pip install -r requirements.txt
+
+# LangGraph 核心
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+
+# LLM 客户端
+langchain-openai
+langchain-anthropic
+langchain-google-genai
+
+# TradingAgents 核心依赖
+yfinance>=0.2.36
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
